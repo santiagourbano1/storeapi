@@ -1,16 +1,44 @@
-# Store API
+# 🛒 Store API - Gestión de Productos
 
-API REST desarrollada en Spring Boot para la gestión de productos.
+API REST desarrollada en Spring Boot para administrar productos de una tienda.
 
-## Tecnologías utilizadas
+## 📌 Tecnologías utilizadas
+
+- Java
 - Spring Boot
+- Spring Data JPA
 - PostgreSQL
-- JPA / Hibernate
 - Maven
 
-## Endpoints
-- POST /api/products
-- GET /api/products
-- GET /api/products/{id}
-- PUT /api/products/{id}
-- DELETE /api/products/{id}
+---
+
+## 🗂 Modelo de Datos
+
+Entidad: **Product**
+
+| Campo       | Tipo      |
+|------------|----------|
+| id         | Long     |
+| name       | String   |
+| description| String   |
+| price      | Double   |
+| stock      | Integer  |
+| createdAt  | LocalDateTime |
+
+---
+
+## 🚀 Endpoints disponibles
+
+### 🔹 1️⃣ Crear producto
+
+**POST** `/api/products`
+
+Ejemplo JSON:
+
+```json
+{
+  "name": "Laptop",
+  "description": "Laptop gamer",
+  "price": 2500.0,
+  "stock": 10
+}
