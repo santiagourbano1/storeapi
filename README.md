@@ -34,3 +34,5 @@ Entidad: **Product**
 - GET /api/products/{id}
 - PUT /api/products/{id}
 - DELETE /api/products/{id}
+- <img width="875" height="720" alt="image" src="https://github.com/user-attachments/assets/e4b8c48b-fb90-429c-ae28-9d917fed3c4b" />
+
