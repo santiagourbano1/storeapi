@@ -29,16 +29,8 @@ Entidad: **Product**
 
 ## 🚀 Endpoints disponibles
 
-### 🔹 1️⃣ Crear producto
-
-**POST** `/api/products`
-
-Ejemplo JSON:
-
-```json
-{
-  "name": "Laptop",
-  "description": "Laptop gamer",
-  "price": 2500.0,
-  "stock": 10
-}
+POST /api/products
+GET /api/products
+GET /api/products/{id}
+PUT /api/products/{id}
+DELETE /api/products/{id}
